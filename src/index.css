@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+.nav {
+  background-color: whitesmoke;
+  border: none;
+}
+
+.app {
+  background-image: url('./assests/weather-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 12px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: whitesmoke;
+  border-radius: 0 0 10px 10px;
+  margin-top: -25px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #2d2d2d;
+  font-size: 20px;
+}
+
+.title {
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+.card {
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  padding: 10px;
+}
+
+.cards {
+  padding-bottom: 5px;
+}
+
+.button {
+  margin: 5px;
+}
+
+.loading {
+  color: white;
+}
+
+.error {
+  color: white;
+}
