@@ -1,7 +1,7 @@
 import React from 'react';
 import CitySelector from './components/CitySelector';
 import UseFetch from './hooks/UseFetch'
-import {API_KEY, API_BASE_URL} from './apis/config';
+import {API_KEY, API_BASE_URL} from '../src/apis/config';
 import WeatherList from './components/WeatherList';
 
 const WeekContainer = () => {
