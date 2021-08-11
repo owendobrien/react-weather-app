@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# react-weather-app
+A weather app using react and open weather map api to show 1 and 5 day weather forecasts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+A weather application that allows you to enter your city name and returns a one or 5-day/3-hour forecast for that city. The forecast includes date and time, temperature, weather description, and open weather maps icon for the weather description.
+
+# Dependencies
+This application uses bootstrap, react-bootstrap, and moment.js
 
 ## Available Scripts
 
